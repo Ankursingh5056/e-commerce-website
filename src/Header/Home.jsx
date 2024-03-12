@@ -25,7 +25,7 @@ function Home() {
 
   return (
     <Box  w={'100%'} >
-      <p>Welcome- {userName.name}</p>
+      <p>Welcome- </p>
 
       <Button type="button" onClick={handleLogout} bg={'#4AA09D'}>
         Logout
