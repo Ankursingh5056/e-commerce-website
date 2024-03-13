@@ -44,6 +44,9 @@ Creating a Responsive eCommerce Website using React, JavaScript, JSX  and Chakra
 <h3>GitHub Repo Link</h3>
 https://github.com/Ankursingh5056/e-commerce-website
 
+<h3> DiployLink</h3>
+https://e-commerce-website00.vercel.app/
+
 <h1>📷 Screenshots</h1>
 <h3>🏠 Home Page</h3>
 <img src="https://raw.githubusercontent.com/Ankursingh5056/e-commerce-website/main/src/assets/image1.png" alt="project-screenshot" width="1000" height="450/">
