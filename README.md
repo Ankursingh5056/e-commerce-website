@@ -1,4 +1,4 @@
-<h1 align="center"> eCommerce App</h1>
+<h1 align="center"> E-Commerce App</h1>
 Creating a Responsive eCommerce Website using React, JavaScript, JSX  and Chakra-ui
 
 
