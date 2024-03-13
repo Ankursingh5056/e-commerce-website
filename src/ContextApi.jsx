@@ -5,7 +5,7 @@ import { createContext, useState } from "react";
 export const myContext = createContext()
 
 function ContextProvider({children}){
-const[isAuth,setIsAuth] = useState(true)
+const[isAuth,setIsAuth] = useState(false)
   return(
     <myContext.Provider value={{isAuth,setIsAuth}}>
       {children}
