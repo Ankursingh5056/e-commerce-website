@@ -16,12 +16,16 @@ function AllRoutes() {
     <Route path="/" element={<Home />} />
     <Route path="/Products" element={
     <PrivateRoute>
-    <Products />
+   <Products/>
+   {/* <Cart/> */}
     </PrivateRoute>
     } />
     <Route path="/about" element={<About/>} />
     <Route path="/login" element={<Login/>} />
-    <Route path="/cart" element={<Cart/>} />
+    <Route path="/cart" element={<PrivateRoute>
+   {/* <Products/> */}
+   <Cart/>
+    </PrivateRoute>} />
 
     <Route path="/register" element={<Resister/>} />
     <Route path="/singlepage/:id" element={<SinglePage/>} />

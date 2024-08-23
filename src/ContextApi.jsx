@@ -6,6 +6,8 @@ export const myContext = createContext()
 
 function ContextProvider({children}){
 const[isAuth,setIsAuth] = useState(false)
+
+console.log(isAuth)
   return(
     <myContext.Provider value={{isAuth,setIsAuth}}>
       {children}

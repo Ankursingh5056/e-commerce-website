@@ -17,34 +17,34 @@ function Home() {
   const { setIsAuth } = useContext(myContext);
   const userName = JSON.parse(localStorage.getItem("user"));
 
-  function handleLogout() {
-    localStorage.removeItem("loggedin");
-    setIsAuth(false);
-    navigate("/login");
-  }
+  // function handleLogout() {
+  //   localStorage.removeItem("loggedin");
+  //   setIsAuth(false);
+  //   navigate("/login");
+  // }
 
   return (
     <Box  w={'100%'} >
       <p>Welcome- </p>
 
-      <Button type="button" onClick={handleLogout} bg={'#4AA09D'}>
+      {/* <Button type="button" onClick={handleLogout} bg={'#4AA09D'}>
         Logout
-      </Button>
+      </Button> */}
 
       <br />
       <br />
 
       <Carousel>
                 <Box w={"100%"} h={"500px"}>
-                    <img src={jewellery} />
+                    <img src={jewellery} w={"200px"} h={"200"} />
                     <p className="legend">Jewellery</p>
                 </Box>
                 <Box w={"100%"} h={"500px"}>
-                    <img src={Cloth} />
+                    <img src={Cloth} w={"200px"} h={"200"} />
                     <p className="legend">Men's cloths</p>
                 </Box>
                 <div>
-                    <img src={Electronics} />
+                    <img src={Electronics} w={"200px"} h={"200"} />
                     <p className="legend">Electronics</p>
                 </div>
             </Carousel>

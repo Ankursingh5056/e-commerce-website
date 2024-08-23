@@ -50,8 +50,8 @@ if(loding){
     <SimpleGrid  columns={[1,2,4]} gap={"10px"}>
       {post.map((e)=>(
         <Link key={e.id} to={`/singlepage/${e.id}` }>
-        <Flex  flexDirection={'column'} justifyContent={'center'} className='child'  h={"400px"} boxShadow={'xl'} >
-          <Image src={e.image} h={"300Px"}/>
+        <Flex  flexDirection={'column'} justifyContent={'center'} alignItems="center" className='child'  h={"400px"} boxShadow={'xl'} >
+          <Image src={e.image} h={"200Px"} w={"200px"}/>
           <p>{e.title}</p>
           {/* <p>{e.description}</p> */}
           <h4>price   ${e.price}</h4>

@@ -1,14 +1,15 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Navbar from "./Header/Navbar";
+
 import AllRoutes from "./Header/AllRoutes";
+import Navbar from "./Header/Navbar";
 
 
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+     <Navbar/>
 
       
       <AllRoutes />
