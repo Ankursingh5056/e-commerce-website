@@ -25,11 +25,14 @@ const Navbar = () => {
 
   const handleLogout=()=>{
     setIsAuth(false)
-    // navigate("/")
+    navigate("/")
   }
 
   const handleLogin = ()=>{
-    <Navigate to={"/login"}/>
+    // <Navigate to={"/login"}/>
+    // setIsAuth(false)
+    navigate("/")
+
   }
 
   return (
@@ -71,7 +74,7 @@ const Navbar = () => {
           <Button
           onClick={handleLogout}
           as={Link}
-          to="/signup"
+          to="/login"
           display={{ base: 'none', md: 'inline-flex' }}
           fontSize={'sm'}
           fontWeight={600}
@@ -87,7 +90,7 @@ const Navbar = () => {
         <Button
           onClick={handleLogin}
         as={Link}
-        to="/signup"
+        to="/login"
         display={{ base: 'none', md: 'inline-flex' }}
         fontSize={'sm'}
         fontWeight={600}
